@@ -17,6 +17,9 @@ public:
 
 private slots:
   void on_tableWidget_clicked(const QModelIndex &index);
+  void MContextMenu(const QPoint &);
+  void CloseAllLed();
+  void ChangeMode();
 
 private:
   Ui::Widget *ui;
